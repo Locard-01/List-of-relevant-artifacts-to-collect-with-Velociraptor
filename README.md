@@ -3,7 +3,6 @@
 **Artifact name:** Windows.Sysinternals.Autoruns  
 **Description:** Detects persistence mechanisms used by attackers (registry, scheduled tasks, services, etc.).
 
----
 
 ## 2. Installed Applications and Execution Traces
 
@@ -30,7 +29,6 @@
 **Artifact name:** Windows.Sys.Drivers  
 **Description:** Provides details on Windows drivers in use.
 
----
 
 ## 3. Network Activity
 
@@ -40,14 +38,12 @@
 **Artifact name:** Windows.Network.NetstatEnriched  
 **Description:** Identifies processes initiating network connections.
 
----
 
 ## 4. User Accounts
 
 **Artifact name:** Windows.Forensics.SAM  
 **Description:** Lists all local user and administrator accounts.
 
----
 
 ## 5. Files and Activity Traces
 
@@ -78,7 +74,6 @@
 **Artifact name:** Windows.Applications.Firefox.History  
 **Description:** Firefox browsing history.
 
----
 
 ## 6. PowerShell Activity
 
