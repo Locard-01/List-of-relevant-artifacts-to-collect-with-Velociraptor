@@ -68,10 +68,10 @@
 **Artifact name:** Windows.Forensics.RecycleBin  
 **Description:** Identifies files deleted to the Windows Recycle Bin ($Recycle.Bin).
 
-**Artifact name:** Windows.Timeline.Registry.RunMRU
+**Artifact name:** Windows.Timeline.Registry.RunMRU 
 **Description:** Command history from Windows+R.
 
-**Artifact name:** Windows.Applications.Chrome.History
+**Artifact name:** Windows.Applications.Chrome.History 
 **Description:** Chrome browsing history.
 
 **Artifact name:** Windows.Applications.Edge.History  
