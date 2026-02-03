@@ -53,6 +53,9 @@
 **Artifact name:** Windows.Forensics.Usn  
 **Description:** Logs file modifications.
 
+**Artifact name:** Windows.Forensics.Lnk
+**Description:** Recently visited files
+
 **Artifact name:** Windows.Forensics.Shellbags  
 **Description:** Allows identification of accessed folder paths and names, even if they have been deleted.
 
@@ -64,6 +67,9 @@
 
 **Artifact name:** Windows.Forensics.RecycleBin  
 **Description:** Identifies files deleted to the Windows Recycle Bin ($Recycle.Bin).
+
+**Artifact name:** Windows.Timeline.Registry.RunMRU
+**Description:** Command history from Windows + R
 
 **Artifact name:** Windows.Applications.Chrome.History  
 **Description:** Chrome browsing history.
