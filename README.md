@@ -53,8 +53,8 @@
 **Artifact name:** Windows.Forensics.Usn  
 **Description:** Logs file modifications.
 
-**Artifact name:** Windows.Forensics.Lnk
-**Description:** Recently visited files
+**Artifact name:** Windows.Forensics.Lnk  
+**Description:** Recently visited files.
 
 **Artifact name:** Windows.Forensics.Shellbags  
 **Description:** Allows identification of accessed folder paths and names, even if they have been deleted.
