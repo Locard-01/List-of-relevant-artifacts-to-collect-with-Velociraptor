@@ -10,7 +10,6 @@
 **Artifact name:** Windows.Sysinternals.Autoruns  
 **Description:** Detects persistence mechanisms used by attackers (registry, scheduled tasks, services, etc.).
 
-
 ## 2. Installed Applications and Execution Traces
 
 **Artifact name:** Windows.Sys.Programs  
