@@ -1,8 +1,8 @@
 ## 0. Logs and Sigma Alerts
-**Artifact name:** Windows.EventLogs.Evtx
+**Artifact name:** Windows.EventLogs.Evtx  
 **Description:** All Windows Logs
 
-**Artifact name:** Windows.EventLogs.Hayabusa
+**Artifact name:** Windows.EventLogs.Hayabusa  
 **Description:** Sigma Alerts
 
 ## 1. Persistence
