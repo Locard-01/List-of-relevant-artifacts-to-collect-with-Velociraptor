@@ -1,3 +1,10 @@
+## 0. Logs and Sigma Alerts
+**Artifact name:** Windows.EventLogs.Evtx
+**Description:** All Windows Logs 
+
+**Artifact name:** Windows.EventLogs.Hayabusa
+**Description:** Sigma Alerts
+
 ## 1. Persistence
 
 **Artifact name:** Windows.Sysinternals.Autoruns  
@@ -82,9 +89,6 @@
 
 
 ## 6. PowerShell Activity
-
-**Artifact name:** Windows.EventLogs.PowershellScriptblock  
-**Description:** Collects executed PowerShell scripts.
 
 **Artifact name:** Windows.System.Powershell.PSReadline  
 **Description:** Collects the PowerShell command history.
