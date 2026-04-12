@@ -23,7 +23,7 @@
 - **Prefetch:** Program execution optimization; loaded DLLs can be identified  
 - **RecentApps:** Recently used applications
 
-**Artifact name:** Windows.Forensics.Bam 
+**Artifact name:** Windows.Forensics.Bam  
 **Description:** BAM (Background Activity Moderator) is a Windows component that tracks background application activity.
 
 **Artifact name:** Windows.Forensics.SRUM  
@@ -41,7 +41,7 @@
 
 ## 4. Network 
 
-**Artifact name:** Windows.Sys.Interfaces
+**Artifact name:** Windows.Sys.Interfaces  
 **Description:** Lists Interfaces.
 
 **Artifact name:** Windows.Registry.RDP  
