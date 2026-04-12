@@ -1,9 +1,9 @@
 ## 1. Logs and Sigma Alerts
 **Artifact name:** Windows.EventLogs.Evtx  
-**Description:** All Windows Logs
+**Description:** All Windows Logs.
 
 **Artifact name:** Windows.EventLogs.Hayabusa  
-**Description:** Sigma Alerts
+**Description:** Sigma Alerts.
 
 ## 2. Persistence
 
@@ -16,16 +16,16 @@
 **Description:** Identifies applications installed via Windows Installer.
 
 **Artifact name:** Windows.Registry.UserAssist  
-**Description:**  Programs executed via the graphical interface
+**Description:**  Programs executed via the graphical interface.
 
 **Artifact name:** Windows.Detection.Amcache  
-**Description:** Files executed on the system; executable file hashes (SHA-1) can be retrieved  
+**Description:** Files executed on the system; executable file hashes (SHA-1) can be retrieved.
 
 **Artifact name:** Windows.Forensics.Prefetch  
-**Description:** Program execution optimization; loaded DLLs can be identified  
+**Description:** Program execution optimization; loaded DLLs can be identified.
 
 **Artifact name:** Windows.Forensics.RecentApps  
-**Description:**  Recently used applications
+**Description:**  Recently used applications.
 
 **Artifact name:** Windows.Forensics.Bam  
 **Description:** BAM (Background Activity Moderator) is a Windows component that tracks background application activity.
