@@ -41,8 +41,14 @@
 
 ## 4. Network 
 
+**Artifact name:** Windows.Sys.Interfaces
+**Description:** Lists Interfaces.
+
 **Artifact name:** Windows.Registry.RDP  
 **Description:** Lists all RDP connections recorded in the registry history.
+
+**Artifact name:** Windows.System.Shares  
+**Description:** Lists all system shares.
 
 **Artifact name:** Windows.Registry.MountPoints2 (No regex)  
 **Description:** Lists all Mount Points.
@@ -69,6 +75,9 @@ WScript.Echo ex.StdOut.ReadAll()
 
 
 ## 6. Files and Activity Traces
+
+**Artifact name:** Windows.Sys.DiskInfo  
+**Description:** System disk info.
 
 **Artifact name:** Windows.NTFS.MFT  
 **Description:** Retrieves the Master File Table (MFT) to analyze file creation, modification, and access timestamps.
