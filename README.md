@@ -15,13 +15,17 @@
 **Artifact name:** Windows.Sys.Programs  
 **Description:** Identifies applications installed via Windows Installer.
 
-**Artifact name:** Windows.Analysis.EvidenceOfExecution  
-**Description:** Centralizes all evidence of program execution across multiple sources.
+**Artifact name:** Windows.Registry.UserAssist  
+**Description:**  Programs executed via the graphical interface
 
-- **UserAssist:** Programs executed via the graphical interface  
-- **Amcache:** Files executed on the system; executable file hashes (SHA-1) can be retrieved  
-- **Prefetch:** Program execution optimization; loaded DLLs can be identified  
-- **RecentApps:** Recently used applications
+**Artifact name:** Windows.Detection.Amcache  
+**Description:** Files executed on the system; executable file hashes (SHA-1) can be retrieved  
+
+**Artifact name:** Windows.Forensics.Prefetch  
+**Description:** Program execution optimization; loaded DLLs can be identified  
+
+**Artifact name:** Windows.Forensics.RecentApps  
+**Description:**  Recently used applications
 
 **Artifact name:** Windows.Forensics.Bam  
 **Description:** BAM (Background Activity Moderator) is a Windows component that tracks background application activity.
