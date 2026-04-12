@@ -33,16 +33,6 @@
 **Artifact name:** Windows.Forensics.SRUM  
 **Description:** SRUM (System Resource Usage Monitor) records application activity and network usage.
 
-**Artifact name:** Generic.System.Pstree  
-**Description:** Reconstructs the process tree to analyze relationships between executables.
-
-**Artifact name:** Windows.System.DLLs  
-**Description:** Enumerates DLLs loaded by a running process.
-
-**Artifact name:** Windows.Sys.Drivers  
-**Description:** Provides details on Windows drivers in use.
-
-
 ## 4. Network 
 
 **Artifact name:** Windows.Sys.Interfaces  
@@ -67,10 +57,6 @@ Set sh = CreateObject("WScript.Shell")
 Set ex = sh.Exec("cmd /c quser")
 WScript.Echo ex.StdOut.ReadAll()
 ```
-
-**Artifact name:** Windows.Network.NetstatEnriched  
-**Description:** Identifies processes initiating network connections.
-
 
 ## 5. User Accounts
 
