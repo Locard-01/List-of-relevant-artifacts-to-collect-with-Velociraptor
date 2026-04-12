@@ -1,16 +1,16 @@
-## 0. Logs and Sigma Alerts
+## 1. Logs and Sigma Alerts
 **Artifact name:** Windows.EventLogs.Evtx  
 **Description:** All Windows Logs
 
 **Artifact name:** Windows.EventLogs.Hayabusa  
 **Description:** Sigma Alerts
 
-## 1. Persistence
+## 2. Persistence
 
 **Artifact name:** Windows.Sysinternals.Autoruns  
 **Description:** Detects persistence mechanisms used by attackers (registry, scheduled tasks, services, etc.).
 
-## 2. Installed Applications and Execution Traces
+## 3. Installed Applications and Execution Traces
 
 **Artifact name:** Windows.Sys.Programs  
 **Description:** Identifies applications installed via Windows Installer.
@@ -22,6 +22,9 @@
 - **Amcache:** Files executed on the system; executable file hashes (SHA-1) can be retrieved  
 - **Prefetch:** Program execution optimization; loaded DLLs can be identified  
 - **RecentApps:** Recently used applications
+
+**Artifact name:** Windows.Forensics.Bam 
+**Description:** BAM (Background Activity Moderator) is a Windows component that tracks background application activity.
 
 **Artifact name:** Windows.Forensics.SRUM  
 **Description:** SRUM (System Resource Usage Monitor) records application activity and network usage.
@@ -36,22 +39,36 @@
 **Description:** Provides details on Windows drivers in use.
 
 
-## 3. Network Activity
+## 4. Network 
 
 **Artifact name:** Windows.Registry.RDP  
 **Description:** Lists all RDP connections recorded in the registry history.
+
+**Artifact name:** Windows.Registry.MountPoints2 (No regex)
+**Description:** Lists all Mount Points.
+
+**Artifact name:** Windows.Sys.FirewallRules
+**Description:** Lists all Firewall Rules.
+
+**Artifact name:** Windows.System.VBScript (run quser)
+**Description:** Used to display user sessions open on a Windows machine.
+```
+Set sh = CreateObject("WScript.Shell")
+Set ex = sh.Exec("cmd /c quser")
+WScript.Echo ex.StdOut.ReadAll()
+```
 
 **Artifact name:** Windows.Network.NetstatEnriched  
 **Description:** Identifies processes initiating network connections.
 
 
-## 4. User Accounts
+## 5. User Accounts
 
 **Artifact name:** Windows.Forensics.SAM  
 **Description:** Lists all local user and administrator accounts.
 
 
-## 5. Files and Activity Traces
+## 6. Files and Activity Traces
 
 **Artifact name:** Windows.NTFS.MFT  
 **Description:** Retrieves the Master File Table (MFT) to analyze file creation, modification, and access timestamps.
@@ -64,6 +81,9 @@
 
 **Artifact name:** Windows.Forensics.Shellbags  
 **Description:** Allows identification of accessed folder paths and names, even if they have been deleted.
+
+**Artifact name:** Windows.Forensics.RDPCache 
+**Description:** RDP Bitmap Cache.
 
 **Artifact name:** Windows.NTFS.I30  
 **Description:** Analyzes $I30 indexes to detect deleted files.
@@ -87,7 +107,7 @@
 **Description:** Firefox browsing history.
 
 
-## 6. PowerShell Activity
+## 7. PowerShell Activity
 
 **Artifact name:** Windows.System.Powershell.PSReadline  
 **Description:** Collects the PowerShell command history.
