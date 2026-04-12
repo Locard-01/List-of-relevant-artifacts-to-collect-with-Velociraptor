@@ -44,13 +44,13 @@
 **Artifact name:** Windows.Registry.RDP  
 **Description:** Lists all RDP connections recorded in the registry history.
 
-**Artifact name:** Windows.Registry.MountPoints2 (No regex)
+**Artifact name:** Windows.Registry.MountPoints2 (No regex)  
 **Description:** Lists all Mount Points.
 
-**Artifact name:** Windows.Sys.FirewallRules
+**Artifact name:** Windows.Sys.FirewallRules  
 **Description:** Lists all Firewall Rules.
 
-**Artifact name:** Windows.System.VBScript (run quser)
+**Artifact name:** Windows.System.VBScript (run quser)  
 **Description:** Used to display user sessions open on a Windows machine.
 ```
 Set sh = CreateObject("WScript.Shell")
