@@ -81,7 +81,7 @@ WScript.Echo ex.StdOut.ReadAll()
 **Artifact name:** Windows.Forensics.Shellbags  
 **Description:** Allows identification of accessed folder paths and names, even if they have been deleted.
 
-**Artifact name:** Windows.Forensics.RDPCache 
+**Artifact name:** Windows.Forensics.RDPCache  
 **Description:** RDP Bitmap Cache.
 
 **Artifact name:** Windows.NTFS.I30  
